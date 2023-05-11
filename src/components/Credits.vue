@@ -20,7 +20,7 @@ export default defineComponent({
 
         <div class="card-body">
             <div class="row">
-                <div class="col-5">
+                <div class="col-md-5 col-sm-12">
                     <div class="overflow-auto" style="max-height: 400px;">
                         <ul class="list-group">
                             <CreditItem />
@@ -29,7 +29,7 @@ export default defineComponent({
                         </ul>
                     </div>
                 </div>
-                <div class="col-7">
+                <div class="col-md-7 col-sm-12">
 
                 </div>
             </div>
