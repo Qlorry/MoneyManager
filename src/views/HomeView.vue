@@ -7,13 +7,13 @@ import Credits from '@/components/Credits.vue'
 
 <template>
   <div class="container">
-    <div class="row mt-3">
-      <div class="col-md-4 col-sm-12">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 mt-3">
         <NewPurchase></NewPurchase>
 
       </div>
 
-      <div class="col-md-8 col-sm-12">
+      <div class="col-md-8 col-sm-12 mt-3">
         <Dept />
 
         <Credits />

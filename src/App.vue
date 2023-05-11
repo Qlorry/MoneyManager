@@ -52,23 +52,20 @@ export default defineComponent({
         </button>
 
         <div class="collapse navbar-collapse d-lg-flex" id="navbarsExample11">
-          <RouterLink to="/" class="navbar-brand col-lg-3 me-0 text-light">Centered nav</RouterLink>
+          <RouterLink to="/" class="navbar-brand col-lg-3 me-0 text-light">Trip Money Tracker</RouterLink>
           <ul class="navbar-nav col-lg-6 justify-content-lg-center">
             <li class="nav-item">
-              <RouterLink to="/" class="nav-link active text-light">Home</RouterLink>
+              <RouterLink to="/" class="nav-link active text-light">Trips</RouterLink>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-light" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
+            <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle  text-light" href="#" data-bs-toggle="dropdown"
                 aria-expanded="false">Dropdown</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Trips</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </li>
+            </li> -->
             <li class="nav-item py-2 py-lg-1 col-12 col-lg-auto">
               <div class="vr d-none d-lg-flex h-100 mx-lg-2 text-white"></div>
               <hr class="d-lg-none my-2 text-white-50">
@@ -103,7 +100,8 @@ export default defineComponent({
             </li>
           </ul>
           <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-            <button class="btn btn-primary">Button</button>
+            <button class="btn btn-success me-2">LogIn</button>
+            <button class="btn btn-danger">LogOut</button>
           </div>
         </div>
       </div>
