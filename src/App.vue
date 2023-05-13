@@ -55,7 +55,7 @@ export default defineComponent({
           <RouterLink to="/" class="navbar-brand col-lg-3 me-0 text-light">Trip Money Tracker</RouterLink>
           <ul class="navbar-nav col-lg-6 justify-content-lg-center">
             <li class="nav-item">
-              <RouterLink to="/" class="nav-link active text-light">Trips</RouterLink>
+              <RouterLink to="/trips" class="nav-link active text-light">Trips</RouterLink>
             </li>
             <!-- <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle  text-light" href="#" data-bs-toggle="dropdown"

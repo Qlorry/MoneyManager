@@ -34,7 +34,7 @@ export default defineComponent({
 
 
     <div class="d-flex flex-row align-items-end p-2 ps-0 pt-0">
-        <input v-model="includeMe" class="form-check-input fs-2" type="checkbox" value="" id="flexCheckChecked">
+        <input v-model="includeMe" class="form-check-input fs-4" type="checkbox" value="" id="flexCheckChecked">
         <label class="form-check-label ms-2" for="flexCheckChecked">
             Include Me
         </label>
